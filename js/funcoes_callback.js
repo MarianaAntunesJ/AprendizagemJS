@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
       function exibirArtigo(id, callbackSucesso, callbackErro){
         //lógica: recuperar o id via requisição HTTP
         if(true){
@@ -24,10 +18,3 @@
       }
 
       exibirArtigo(1, callbackSucesso , callbackErro)
-    </script>
-    
-  </head>
-
-  <body>
-  </body>
-</html>

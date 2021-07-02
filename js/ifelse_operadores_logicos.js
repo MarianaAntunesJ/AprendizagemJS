@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
-    
    /*  if (2 === 2 && 3 > 1 && 'a' !== 4) {
         document.write('Verdadeiro')
     }
@@ -38,9 +31,3 @@
 
     var resultado = nota >= media && faltas <= faltas_maximas ? 'Aprovado' : 'Reprovado'
     document.write(resultado)
-    </script>
-</head>
-<body>
-   
-</body>
-</html>

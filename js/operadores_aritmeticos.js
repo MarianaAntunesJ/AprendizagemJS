@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
         var num1 = prompt('Digite o valor de num1')
         var num2 = prompt('Digite o valor de num2')
 
@@ -19,9 +13,3 @@
         document.write(num1 + '<br />')
         document.write('O decremento de ' + num1 + ' é: ' + (--num1) + '<br />')
         document.write(num1)
-    </script>
-</head>
-<body>
-   
-</body>
-</html>

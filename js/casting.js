@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
-    
     // var variavel1 = prompt('Digite algum número:')
     // var variavel2 = prompt('Digite outro número:')
 
@@ -21,10 +14,3 @@
     console.log(variavel2)
 
     document.write(variavel1.toString() + variavel2.toString())
-   
-    </script>
-</head>
-<body>
-   
-</body>
-</html>
