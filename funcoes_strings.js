@@ -1,17 +1,17 @@
       //propriedade length
-      document.write('Jorge Sant Ana'.length)
+      console.log('Jorge Sant Ana'.length)
       
       //retorna o caractere que pertence a este indice
-      document.write('Jorge Sant Ana'.charAt(7))
+      console.log('Jorge Sant Ana'.charAt(7))
 
       var nome = 'Jorge Sant Ana'
-      document.write(nome.indexOf('g'))
+      console.log(nome.indexOf('g'))
 
-      document.write(nome.replace('Sant Ana', 'Silva'))
+      console.log(nome.replace('Sant Ana', 'Silva'))
       
-      document.write(nome.substr(6,4))
+      console.log(nome.substr(6,4))
       
-      document.write(nome.toLocaleLowerCase())
-      document.write(nome.toLocaleUpperCase())
+      console.log(nome.toLocaleLowerCase())
+      console.log(nome.toLocaleUpperCase())
 
-      document.write('-'+ nome.trim() + '-')
+      console.log('-'+ nome.trim() + '-')

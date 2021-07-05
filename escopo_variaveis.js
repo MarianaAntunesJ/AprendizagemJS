@@ -4,20 +4,20 @@ var serie = 'Friends'
 
 if(true){
 var serie2 = 'Game of Thrones'
-document.write(serie)
+console.log(serie)
 }
 
-document.write(serie2)
+console.log(serie2)
 
-document.write('<br />')
+console.log('<br />')
 
 function x(){
 var serie3 = 'The Walking Dead'
-document.write(serie)
-document.write(serie2)
+console.log(serie)
+console.log(serie2)
 }
 
 x()
 
-document.write('<br />')
-document.write(serie3) //não renderiza
+console.log('<br />')
+console.log(serie3) //não renderiza

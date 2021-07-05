@@ -1,13 +1,11 @@
-      var x = Math.ceil(10.380) //forçar arredondamento para cima
-      document.write(x)
+//forçar arredondamento para cima
+      console.log(Math.ceil(10.380))
      
-      var y = Math.floor(10.380) //forçar arredondamento para baixo
-      document.write(y)
+//forçar arredondamento para baixo
+      console.log(Math.floor(10.380))
       
+//verifica se deve arredondar para cima ou para baixo
+      console.log(Math.round(10.380))
       
-      var z = Math.round(10.380) //verifica se deve arredondar para cima ou para baixo
-      document.write(z)
-      
-      
-      var c = Math.random() //sortear valores entre 0 e 1
-      document.write(c)
+ //sortear valores entre 0 e 1
+      console.log(Math.random())

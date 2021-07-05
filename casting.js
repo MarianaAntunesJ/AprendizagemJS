@@ -13,4 +13,4 @@
     console.log(variavel1)
     console.log(variavel2)
 
-    document.write(variavel1.toString() + variavel2.toString())
+    console.log(variavel1.toString() + variavel2.toString())
