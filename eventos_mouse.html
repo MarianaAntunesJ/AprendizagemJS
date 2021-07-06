@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+</head>
+<script>
+    function acao() {
+        alert('Evento disparado')
+    }
+
+    function acao2() {
+        alert('Evento disparado - onmouseout')
+    }
+
+</script>
+
+<body>
+    <div onclick="acao()" onmouseout="acao2()"  style="background:  purple ; height: 150px; width: 150px;"></div>
+
+    <div onclick="acao()" style="background:  palevioletred; height: 150px; width: 150px;"></div>
+    <div ondblclick="acao()" style="background: red; height: 150px; width: 150px;"></div>
+    <div onmouseup="acao()" style="background:  yellow ; height: 150px; width: 150px;"></div>
+    <div onmouseover="acao()" style="background: blue; height: 150px; width: 150px;"></div>
+    <div onmouseout="acao()" style="background: green; height: 150px; width: 150px;"></div>
+
+</body>
+
+</html>
