@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+</head>
+<script>
+    // dispara pressionando qualquer tecla
+    function acaoOnKeyDown() {
+        alert('Evento disparado - OnKeyDown')
+    }
+
+    function acaoOnKeyUp() {
+        alert('Evento disparado - OnKeyUp()')
+    }
+
+    // só dispara com caracteres
+    function acaoOnKeyPress() {
+        alert('Evento disparado - OnKeyPress')
+    }
+
+</script>
+
+<body>
+    <input onkeydown="acaoOnKeyDown()" type="text" />
+    <input onkeyup="acaoOnKeyUp()" type="text" />
+    <input onkeypress="acaoOnKeyPress()" type="text" />
+</body>
+
+</html>
