@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script>
+
+        // var lista_frutas = Array('Maça', 'Banana', 'Uva')
+
+        var lista_frutas = Array()
+        lista_frutas['frutas'] = []
+        lista_frutas['pessoas'] = []
+
+        // incluir elemento no final
+        lista_frutas['frutas'].push('Morango')
+        lista_frutas['frutas'].push('Maça')
+
+        // incluir elemento no inicio
+        lista_frutas['frutas'].unshift('Abacaxi')
+        lista_frutas['frutas'].unshift('Uva')
+        lista_frutas['frutas'].unshift('Abacate')
+        lista_frutas['frutas'].unshift('Melancia')
+
+
+       // excluir elemento do final
+        lista_frutas['frutas'].pop()
+
+        // excluir elemento do inicio
+        lista_frutas['frutas'].shift()
+
+        // excluir a partir do index 2, 1 item
+        lista_frutas['frutas'].splice(2, 1)
+
+        console.log(lista_frutas)
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
